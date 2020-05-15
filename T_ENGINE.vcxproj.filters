@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\EntryPoint.cpp" />
+    <ClCompile Include="src\Engine.cpp" />
+    <ClCompile Include="src\EntityManager.cpp" />
+    <ClCompile Include="src\Entity.cpp" />
+    <ClCompile Include="src\TextureManager.cpp" />
+    <ClCompile Include="src\AssetManager.cpp" />
+    <ClCompile Include="src\components\TransformComponent.cpp" />
+    <ClCompile Include="src\components\SpriteComponent.cpp" />
+    <ClCompile Include="src\components\ImageComponent.cpp" />
+    <ClCompile Include="src\components\KeyboardComponent.cpp" />
+    <ClCompile Include="src\components\TileComponent.cpp" />
+    <ClCompile Include="src\TileMap.cpp" />
+    <ClCompile Include="src\components\ColliderComponent.cpp" />
+    <ClCompile Include="src\CollisionManager.cpp" />
+    <ClCompile Include="src\components\LabelComponent.cpp" />
+    <ClCompile Include="src\FontManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Engine.h" />
+    <ClInclude Include="src\EngineConstant.h" />
+    <ClInclude Include="src\EntityManager.h" />
+    <ClInclude Include="src\Entity.h" />
+    <ClInclude Include="src\AssetManager.h" />
+    <ClInclude Include="src\TextureManager.h" />
+    <ClInclude Include="src\IComponent.h" />
+    <ClInclude Include="src\components\TransformComponent.h" />
+    <ClInclude Include="src\components\SpriteComponent.h" />
+    <ClInclude Include="src\components\ImageComponent.h" />
+    <ClInclude Include="src\components\Animation.h" />
+    <ClInclude Include="src\components\KeyboardComponent.h" />
+    <ClInclude Include="src\components\TileComponent.h" />
+    <ClInclude Include="src\TileMap.h" />
+    <ClInclude Include="src\components\ColliderComponent.h" />
+    <ClInclude Include="src\CollisionManager.h" />
+    <ClInclude Include="src\components\LabelComponent.h" />
+    <ClInclude Include="src\FontManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="assets\images\army-group-1.png" />
+    <Image Include="assets\images\army-group-2.png" />
+    <Image Include="assets\images\army-group-3.png" />
+    <Image Include="assets\images\bandit-spritesheet.png" />
+    <Image Include="assets\images\bullet-enemy.png" />
+    <Image Include="assets\images\bullet-friendly.png" />
+    <Image Include="assets\images\chopper-sinngle.png" />
+    <Image Include="assets\images\chopper-spritesheet.png" />
+    <Image Include="assets\images\collision-texture.png" />
+    <Image Include="assets\images\heliport.png" />
+    <Image Include="assets\images\HelpScreenLevel1Jungle.png" />
+    <Image Include="assets\images\HelpScreenLevel2Desert.png" />
+    <Image Include="assets\images\obstacles.png" />
+    <Image Include="assets\images\radar.png" />
+    <Image Include="assets\images\rock-big-1.png" />
+    <Image Include="assets\images\rock-big-2.png" />
+    <Image Include="assets\images\rock-big-3.png" />
+    <Image Include="assets\images\rock-big-4.png" />
+    <Image Include="assets\images\rock-small-1.png" />
+    <Image Include="assets\images\SecondLevelHelpScreen.png" />
+    <Image Include="assets\images\start.png" />
+    <Image Include="assets\images\tank-big-down.png" />
+    <Image Include="assets\images\tank-big-left.png" />
+    <Image Include="assets\images\tank-big-right.png" />
+    <Image Include="assets\images\tank-small-left.png" />
+    <Image Include="assets\images\tank-small-right.png" />
+    <Image Include="assets\images\tree-small-1.png" />
+    <Image Include="assets\images\tree-small-2.png" />
+    <Image Include="assets\images\tree-small-3.png" />
+    <Image Include="assets\images\tree-small-4.png" />
+    <Image Include="assets\images\tree-small-5.png" />
+    <Image Include="assets\images\tree-small-6.png" />
+    <Image Include="assets\images\tree-small-7.png" />
+    <Image Include="assets\images\tree-small-8.png" />
+    <Image Include="assets\images\truck-down.png" />
+    <Image Include="assets\images\truck-left.png" />
+    <Image Include="assets\images\truck-right.png" />
+    <Image Include="assets\tilemaps\jungle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\tilemaps\jungle.map" />
+  </ItemGroup>
+</Project>
